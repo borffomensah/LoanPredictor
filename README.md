@@ -2,23 +2,21 @@
 This project focuses on building a machine learning model to predict the likelihood of loan defaults based on historical borrower data. Loan default prediction is critical for financial institutions to assess risk, optimize lending strategies, and minimize losses. The project leverages machine learning techniques to analyze borrower characteristics and provide actionable insights for decision-making.
 
 # Key Features
-Data Preprocessing :
+1. Data Preprocessing :
 Cleaning, encoding, and transforming raw loan data into a suitable format for machine learning.
 Handling missing values, outliers, and categorical variables.
-Exploratory Data Analysis (EDA) :
+2. Exploratory Data Analysis (EDA) :
 Visualizing trends, distributions, and correlations in the loan dataset.
 Identifying key factors influencing loan default probabilities.
-Model Development :
+3. Model Development :
 Implemented and compared multiple machine learning models, including Random Forest, Logistic Regression, and Gradient Boosting.
-Model Evaluation :
+4. Model Evaluation :
 Used evaluation metrics such as Accuracy, Precision, Recall, F1-Score, and ROC-AUC to assess model performance.
 Selected the best-performing model for predictions.
-Prediction :
+5. Prediction :
 Generated predictions for both individual borrowers and batch datasets.
 Provided clear interpretations of the results (e.g., "likely to default" or "unlikely to default").
-Visualization :
-Interactive plots and dashboards to present prediction results and model performance.
-Deployment :
+6. Deployment :
 Deployed the model as a user-friendly web application using Streamlit.
 # Technologies Used
 Programming Language : Python
@@ -83,7 +81,7 @@ Assess borrower risk effectively.
 Optimize lending strategies.
 Minimize potential losses.
 # Deployment
-The loan default prediction model was deployed as a user-friendly web application using Streamlit , providing an intuitive interface for end-users to interact with the predictions. You can access the deployed app here .
+The loan default prediction model was deployed as a user-friendly web application using Streamlit , providing an intuitive interface for end-users to interact with the predictions. You can access the deployed app [here](https://loan-defaults24.streamlit.app/) .
 
 # Conclusion
 The Loan Default Prediction project successfully demonstrates the power of machine learning in assessing borrower risk and predicting loan defaults. By leveraging advanced algorithms and interactive visualizations, the project provides actionable insights that can significantly enhance lending decisions and risk management.
